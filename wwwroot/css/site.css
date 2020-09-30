@@ -1,0 +1,280 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html,
+body,
+.view {
+  height: 100%;
+}
+header {
+  height: 10%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  .view {
+    height: 1000px;
+  }
+  header {
+    height: 10%;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  .view {
+    height: 650px;
+  }
+  header {
+    height: 10%;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #1c2331 !important;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+.bg-blue {
+  background-color: #3f50b5 !important;
+}
+
+a.bg-blue:hover,
+a.gray:focus,
+button.bg-gray:hover,
+button.bg-gray:focus {
+  background-color: #3f50b5 !important;
+}
+
+.navbar.fixed-top.scrolled {
+  opacity: 0.9;
+  transition: background-color 200ms linear;
+}
+
+img {
+  width: 100%;
+}
+
+/* .thisBody { 
+  background: #292929;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-family: arial;
+  height: 100vh;
+}
+
+.cardBox {
+  perspective: 500px;
+  margin: 10px;
+}
+
+.flashCard {
+  position: relative;
+  width: 240px;
+  height: 240px;
+  background: #fff;
+  transform-style: preserve-3d;
+  transition: 0.5s ease;
+  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.5);
+} */
+.facebook {
+  background: #3b5998;
+}
+.twitter {
+  background: #00aced;
+}
+.googleplus {
+  background: #dd4b39;
+}
+.reddit {
+  background: #ff4301;
+}
+.spotify {
+  background: #1db954;
+}
+
+.camera {
+  background: black;
+}
+.sync {
+  background: darkslategray;
+}
+.amazon {
+  background: #ff9900;
+}
+.xray {
+  background: black;
+}
+.nurse {
+  background: #cb3420;
+}
+.syringe {
+  background: #921403;
+}
+.heartbeat {
+  background: purple;
+}
+.itunes {
+  background: #ea4cc0;
+}
+.wifi {
+  background: navy;
+}
+.apple {
+  background: #aaa9ad;
+  color: black !important;
+}
+.paypal {
+  background: #3b7bbf;
+}
+
+/* .card-front,
+.card-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 240px;
+  height: 240px;
+  color: #fff;
+  backface-visibility: hidden;
+} */
+
+/* .card-front {
+  display: flex;
+  font-size: 40px;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* .card-back {
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  transform: rotateY(-180deg);
+}
+.cardBox:hover .flashCard,
+.cardBox:active .flashCard {
+  transform: rotateY(180deg);
+} */
+
+.cardContainer {
+  width: 100%;
+  height: 240px;
+  position: relative;
+  -webkit-perspective: 500px;
+  -moz-perspective: 500px;
+  -o-perspective: 500px;
+  perspective: 500px;
+  margin: 15px 0px 15px 0px;
+}
+.flashCard {
+  width: 100%;
+  height: 240px;
+  position: relative;
+  -webkit-transition: -webkit-transform 1s;
+  -moz-transition: -moz-transform 1s;
+  -o-transition: -o-transform 1s;
+  transition: transform 0.5s ease;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.5);
+  /* -webkit-transform-origin: 50% 50%; */
+}
+.flashCard div {
+  display: block;
+  height: 100%;
+  width: 100%;
+  /* line-height: 260px; */
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.flashCard .front {
+  display: flex;
+  font-size: 39px;
+  justify-content: center;
+  align-items: center;
+}
+.flashCard .back {
+  justify-content: center;
+  align-items: center;
+  font-size: 39px;
+  display: flex;
+  /* background: blue; */
+  -webkit-transform: rotateY(-180deg);
+  -moz-transform: rotateY(-180deg);
+  -o-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+}
+.flashCard.flipped {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
