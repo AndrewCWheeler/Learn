@@ -4,26 +4,31 @@
 // Write your JavaScript code.
 $(function () {
   $(document).scroll(function () {
-    var $nav = $('.navbar.fixed-top');
-    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    var $nav = $(".navbar.fixed-top");
+    $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
   });
-  $('.flashCard').click(function flip() {
-    $(this).toggleClass('flipped');
+  $(".flashCard").click(function flip() {
+    $(this).toggleClass("flipped");
   });
-  $('#signUpModal').on('shown.bs.modal', function () {
-    $('#modalButton').trigger('focus');
+  $("#signUpModal").on("shown.bs.modal", function () {
+    $("#modalButton").trigger("focus");
   });
-  $('.fraction').each(function (key, value) {
+  $(".fraction").each(function (key, value) {
     $this = $(this);
-    var split = $this.html().split('/');
+    var split = $this.html().split("/");
     if (split.length == 2) {
       $this.html(
         '<span class="top">' +
           split[0] +
           '</span><span class="bottom">' +
           split[1] +
-          '</span>'
+          "</span>"
       );
     }
+  });
+  $(".dropdown-submenu .dropdown-toggle").on("click", function (e) {
+    e.stopPropagation();
+    e.preventDefault();
+    $(this).next(".dropdown-menu").toggle();
   });
 });

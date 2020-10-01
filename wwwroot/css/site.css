@@ -103,7 +103,7 @@ button.bg-gray:focus {
 }
 
 .navbar.fixed-top.scrolled {
-  opacity: 0.9;
+  /* opacity: 0.9; */
   transition: background-color 200ms linear;
 }
 
@@ -237,7 +237,7 @@ img {
 
 @font-face {
   font-family: Open_Sans;
-  src: url('../font/Open_Sans/OpenSans-SemiBold.ttf');
+  src: url("../font/Open_Sans/OpenSans-SemiBold.ttf");
 }
 
 .flashCard .front {
