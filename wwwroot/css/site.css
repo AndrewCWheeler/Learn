@@ -134,6 +134,15 @@ img {
   transition: 0.5s ease;
   box-shadow: 0 30px 30px rgba(0, 0, 0, 0.5);
 } */
+
+.indigo {
+  background: #3f51b5;
+}
+
+.mdbSecondary {
+  background: #dd4b39;
+}
+
 .facebook {
   background: #3b5998;
 }
@@ -149,7 +158,6 @@ img {
 .spotify {
   background: #1db954;
 }
-
 .camera {
   background: black;
 }
@@ -185,50 +193,21 @@ img {
   background: #3b7bbf;
 }
 
-/* .card-front,
-.card-back {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 240px;
-  height: 240px;
-  color: #fff;
-  backface-visibility: hidden;
-} */
-
-/* .card-front {
-  display: flex;
-  font-size: 40px;
-  justify-content: center;
-  align-items: center;
-} */
-
-/* .card-back {
-  display: flex;
-  font-size: 30px;
-  justify-content: center;
-  align-items: center;
-  transform: rotateY(-180deg);
-}
-.cardBox:hover .flashCard,
-.cardBox:active .flashCard {
-  transform: rotateY(180deg);
-} */
-
 .cardContainer {
-  width: 100%;
+  width: 240px;
   height: 240px;
   position: relative;
   -webkit-perspective: 500px;
   -moz-perspective: 500px;
   -o-perspective: 500px;
   perspective: 500px;
-  margin: 15px 0px 15px 0px;
+  margin: 25px;
 }
 .flashCard {
-  width: 100%;
+  width: 240px;
   height: 240px;
   position: relative;
+  border-radius: 12px;
   -webkit-transition: -webkit-transform 1s;
   -moz-transition: -moz-transform 1s;
   -o-transition: -o-transform 1s;
@@ -237,13 +216,13 @@ img {
   -moz-transform-style: preserve-3d;
   -o-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.6);
   /* -webkit-transform-origin: 50% 50%; */
 }
 .flashCard div {
   display: block;
-  height: 100%;
-  width: 100%;
+  height: 240px;
+  width: 240px;
   /* line-height: 260px; */
   color: white;
   text-align: center;
@@ -255,16 +234,28 @@ img {
   -o-backface-visibility: hidden;
   backface-visibility: hidden;
 }
+
+@font-face {
+  font-family: Open_Sans;
+  src: url('../font/Open_Sans/OpenSans-SemiBold.ttf');
+}
+
 .flashCard .front {
+  font-family: Open_Sans;
+  border-radius: 12px;
+  background: #3b5998;
   display: flex;
-  font-size: 39px;
+  font-size: 51px;
   justify-content: center;
   align-items: center;
 }
 .flashCard .back {
+  font-family: Open_Sans;
+  border-radius: 12px;
+  background: #dd4b39;
   justify-content: center;
   align-items: center;
-  font-size: 39px;
+  font-size: 51px;
   display: flex;
   /* background: blue; */
   -webkit-transform: rotateY(-180deg);
@@ -277,4 +268,22 @@ img {
   -moz-transform: rotateY(180deg);
   -o-transform: rotateY(180deg);
   transform: rotateY(180deg);
+}
+
+.fraction,
+.top,
+.bottom {
+  padding: 0 1px;
+}
+
+.fraction {
+  display: inline-block;
+  text-align: center;
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.bottom {
+  border-top: 1px solid white;
+  display: block;
 }

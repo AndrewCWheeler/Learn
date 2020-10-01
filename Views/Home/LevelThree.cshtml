@@ -1,5 +1,5 @@
 @{
-    ViewData["Title"] = "Level One";
+    ViewData["Title"] = "Level Three";
 }
 @using Learn.Models
 @model FractionCard[]
@@ -9,7 +9,7 @@
     <div class="row justify-content-center">
         @foreach(var item in Model){
             <div class="cardContainer">
-                <div class="flashCard">
+                <div class="flashCard" >
                     <div class="front">
                         <p>@item.Dividend</p>
                         <p class="mx-3" style="font-size:42px">÷</p>

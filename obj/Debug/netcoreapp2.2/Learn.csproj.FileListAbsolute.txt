@@ -30,3 +30,4 @@
 /Users/andrew/CodingDojo/Career Resources/Learn/obj/Debug/netcoreapp2.2/Learn.csproj.CopyComplete
 /Users/andrew/CodingDojo/Career Resources/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Home/LevelOne.g.cshtml.cs
 /Users/andrew/CodingDojo/Career Resources/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Home/LevelTwo.g.cshtml.cs
+/Users/andrew/CodingDojo/Career Resources/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Home/LevelThree.g.cshtml.cs

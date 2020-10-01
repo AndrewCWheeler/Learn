@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 using Learn.Models;
+using System.Windows;
 
 namespace Learn.Controllers
 {
@@ -27,77 +28,116 @@ namespace Learn.Controllers
 
     [HttpGet]
     [Route("user/levelone")]
-
     public IActionResult LevelOne()
     {
       Random rand = new Random();
       Fraction frac = new Fraction();
-      var number = 2.83;
-      var result = Fraction.ToFractions(number, 4);
-      Console.WriteLine(result);
-
-      Console.WriteLine("THIS is the Fraction function output: ");
-      Console.WriteLine(frac);
-      int[] Operand = new int[24];
-      string[] FractionAnswer = new string[12];
-      double[] DecimalAnswer = new double[12];
-      string[] ReducedFractionAnswer = new string[12];
-      string[] portionFraction = new string[12];
-
-
-      for (int i = 0; i < 24; i++)
+      // Instantiate an array of Fraction Card objects
+      FractionCard[] Cards = new FractionCard[12];
+      for (int i = 0; i < 12; ++i)
       {
-        Operand[i] = rand.Next(1, 10);
+        Cards[i] = new FractionCard();
       }
-      ViewBag.Operand = Operand;
-      for (int j = 0; j < 12; j++)
+      for (int j = 0; j < 12; ++j)
       {
-        int dividend = Operand[j];
-        int divisor = Operand[j + 1];
-        int? whole = Operand[j] / Operand[j + 1];
-        int modulus = Operand[j] % Operand[j + 1];
-        if (dividend <= divisor)
+        Cards[j].Dividend = rand.Next(1, 10);
+        Cards[j].Divisor = rand.Next(1, 10);
+        Cards[j].Whole = Cards[j].Dividend / Cards[j].Divisor;
+        Cards[j].Modulus = Cards[j].Dividend % Cards[j].Divisor;
+        if (Cards[j].Dividend < Cards[j].Divisor)
         {
-          Console.WriteLine("Dividend is Bigger.");
-          FractionAnswer[j] = new Fraction(Operand[j], Operand[j + 1]);
+          Cards[j].Whole = null;
+          Cards[j].Answer = new Fraction(Cards[j].Dividend, Cards[j].Divisor);
         }
         else
         {
-          Console.WriteLine("Divisor is Bigger.");
-          Console.Write("Dividend" + dividend);
-          Console.Write("Divisor" + divisor);
-          Console.WriteLine("Whole" + whole);
-          Console.WriteLine("Modulus" + modulus);
-          if (modulus == 0)
+          if (Cards[j].Modulus == 0)
           {
-            FractionAnswer[j] = whole.ToString();
+            Cards[j].Answer = null;
           }
           else
           {
-            portionFraction[j] = new Fraction(modulus, divisor);
-            FractionAnswer[j] = whole.ToString() + " " + portionFraction[j];
-            Console.WriteLine("FractionAnswer[j]" + FractionAnswer[j]);
+            Cards[j].Answer = new Fraction(Cards[j].Modulus, Cards[j].Divisor);
           }
         }
-
-        DecimalAnswer[j] = (Math.Round((double)dividend / divisor, 3));
-        ReducedFractionAnswer[j] = Fraction.ToFraction(DecimalAnswer[j]);
-
       }
-
-      Console.WriteLine(FractionAnswer);
-      ViewBag.FractionAnswer = FractionAnswer;
-      ViewBag.DecimalAnswer = DecimalAnswer;
-      ViewBag.ReducedFractionAnswer = ReducedFractionAnswer;
-      return View("LevelOne");
+      return View("LevelOne", Cards);
     }
 
     [HttpGet]
     [Route("user/leveltwo")]
-
     public IActionResult LevelTwo()
     {
-      return View();
+      Random rand = new Random();
+      Fraction frac = new Fraction();
+      // Instantiate an array of Fraction Card objects
+      FractionCard[] Cards = new FractionCard[12];
+      for (int i = 0; i < 12; ++i)
+      {
+        Cards[i] = new FractionCard();
+      }
+      for (int j = 0; j < 12; ++j)
+      {
+        Cards[j].Dividend = rand.Next(1, 20);
+        Cards[j].Divisor = rand.Next(1, 10);
+        Cards[j].Whole = Cards[j].Dividend / Cards[j].Divisor;
+        Cards[j].Modulus = Cards[j].Dividend % Cards[j].Divisor;
+        if (Cards[j].Dividend < Cards[j].Divisor)
+        {
+          Cards[j].Whole = null;
+          Cards[j].Answer = new Fraction(Cards[j].Dividend, Cards[j].Divisor);
+        }
+        else
+        {
+          if (Cards[j].Modulus == 0)
+          {
+            Cards[j].Answer = null;
+          }
+          else
+          {
+            Cards[j].Answer = new Fraction(Cards[j].Modulus, Cards[j].Divisor);
+          }
+        }
+      }
+      return View("LevelTwo", Cards);
+    }
+
+    [HttpGet]
+    [Route("user/levelthree")]
+    public IActionResult LevelThree()
+    {
+      Random rand = new Random();
+      Fraction frac = new Fraction();
+      // Instantiate an array of Fraction Card objects
+      FractionCard[] Cards = new FractionCard[12];
+      for (int i = 0; i < 12; ++i)
+      {
+        Cards[i] = new FractionCard();
+      }
+      for (int j = 0; j < 12; ++j)
+      {
+        Cards[j].Dividend = rand.Next(1, 20);
+        Cards[j].Divisor = rand.Next(1, 20);
+        Cards[j].Whole = Cards[j].Dividend / Cards[j].Divisor;
+        Cards[j].Modulus = Cards[j].Dividend % Cards[j].Divisor;
+        if (Cards[j].Dividend < Cards[j].Divisor)
+        {
+          Cards[j].Whole = null;
+          Cards[j].Answer = new Fraction(Cards[j].Dividend, Cards[j].Divisor);
+        }
+        else
+        {
+          if (Cards[j].Modulus == 0)
+          {
+            Cards[j].Answer = null;
+          }
+          else
+          {
+            Cards[j].Answer = new Fraction(Cards[j].Modulus, Cards[j].Divisor);
+          }
+        }
+      }
+      return View("LevelThree", Cards);
     }
 
     public IActionResult Privacy()

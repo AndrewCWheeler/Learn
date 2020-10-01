@@ -1902,6 +1902,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/andrew/CodingDojo/Career Resources/Learn/Views/Home/LevelThree.cshtml",
+      "TargetPath": "Views\\Home\\LevelThree.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/andrew/CodingDojo/Career Resources/Learn/Views/Shared/Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
