@@ -1,5 +1,6 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+    Layout = "../Shared/_RegisterLayout.cshtml";
 }
 
 
@@ -101,7 +102,7 @@
     <!-- Navbar -->
     <!-- Full Page Intro -->
     <div
-      class="view full-page-intro mt-3"
+      class="view full-page-intro"
       style="
         background-image: url('https://images.unsplash.com/photo-1502101872923-d48509bff386?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3600&q=80');  
         
@@ -130,12 +131,12 @@
               <hr class="hr-light" />
 
               <p>
-                <strong>Fractions, Percentages, Decimals, and more...</strong>
+                <strong>A supplemental tool to enhance your child's education.</strong>
               </p>
 
               <p class="mb-4 d-none d-md-block">
                 <strong
-                  >Earn points by completing each level and enter the playoffs to compete for 1st place in the championship!</strong
+                  >Students can earn points by completing each level and test their knowledge by taking quizzes and exams.</strong
                 >
               </p>
 
@@ -160,41 +161,38 @@
                     </button>
                   </div>
                   <div class="modal-body">
-                    <form class="p-3" name="">
+                    <form class="p-3" name="" id="register">
                       <!-- Heading -->
                       @* <h3 class="dark-grey-text">
                         <strong>Create Account</strong>
                       </h3>
                       <hr /> *@
-
-                      <div class="md-form">
-                        <input type="text" name="FirstName" class="form-control" />
-                        <label for="FirstName">First name</label>
+                      
+                      <div class="md-form text-left">
+                        <i class="fas fa-user fa-sm prefix" aria-hidden="true"></i>
+                        <label for="Username">Username</label>
+                        <input type="text" id="Username" name="Username" class="form-control form-control-lg" />
                       </div>
-                      <div class="md-form">
-                        <input type="text" name="LastName" class="form-control" />
-                        <label for="LastName">Last name</label>
+                      <div class="md-form text-left">
+                        <i class="fa fa-envelope prefix"></i>
+                        <label for="Email">Email</label>
+                        <input type="text" id="Email" name="Email" class="form-control form-control-lg" />
                       </div>
-                      <div class="md-form">
-                        
-                        <input type="text" name="Email" class="form-control"/>
-                        <label for="Email">Email address</label>
-                      </div>
-                      <div class="md-form">
-                        <input type="password" name="Password" class="form-control" />
+                      <div class="md-form text-left">
+                        <i class="fas fa-lock prefix" toggle=#Password id="lockCon" aria-hidden="true"></i>
                         <label for="Password">Password</label>
+                        <input type="password" id="Password" name="Password" class="form-control form-control-lg" />
                       </div>
-                      <div class="md-form">
-                        <input type="password" name="Confirm" class="form-control" />
-                        <label for="Confirm">Confirm password</label>
+                      <div class="md-form text-left">
+                        <i class="fas fa-eye-slash prefix" toggle="#Confirm" id="eyeCon" aria-hidden="true"></i>
+                        <label for="Confirm">Confirm</label>
+                        <input type="password" id="Confirm" name="Confirm" class="form-control form-control-lg" />
                       </div>
                       <div class="modal-footer">
                         <button class="btn btn-indigo">Submit</button>
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        
                       </div>
                     </form>
-
                   </div>
                 </div>
               </div>
@@ -278,7 +276,7 @@
 
         <!--Section: Main features & Quick Start-->
         <section>
-          <h3 class="h3 text-center mb-5">About MDB</h3>
+          <h3 class="h3 text-center mb-5">About Learn</h3>
 
           <!--Grid row-->
           <div class="row wow fadeIn">
@@ -287,13 +285,12 @@
               <!--First row-->
               <div class="row">
                 <div class="col-1 mr-3">
-                  <i class="fas fa-code fa-2x indigo-text"></i>
+                  <i class="fas fa-divide fa-2x cyan-text"></i>
                 </div>
                 <div class="col-10">
-                  <h5 class="feature-title">Bootstrap 4</h5>
+                  <h5 class="feature-title">Fundamentals</h5>
                   <p class="grey-text">
-                    Thanks to MDB you can take advantage of all feature of
-                    newest Bootstrap 4.
+                    Learn is designed to reinforce fundamental concepts taught in the classroom. In the <strong>Fractions</strong> section of Learn, students utilize ditigal flash cards to practice concepts like <strong> Greatest Common Factor</strong> and <strong>Least Common Multiple</strong> to add and subtract fractions.  
                   </p>
                 </div>
               </div>
@@ -304,13 +301,12 @@
               <!--Second row-->
               <div class="row">
                 <div class="col-1 mr-3">
-                  <i class="fas fa-book fa-2x blue-text"></i>
+                  <i class="fas fa-lightbulb fa-2x cyan-text"></i>
                 </div>
                 <div class="col-10">
-                  <h5 class="feature-title">Detailed documentation</h5>
+                  <h5 class="feature-title">Tips</h5>
                   <p class="grey-text">
-                    We give you detailed user-friendly documentation at your
-                    disposal. It will help you to implement your ideas easily.
+                    Learn provides quick tips in each section to help reinforce key concepts using textbook terminology.
                   </p>
                 </div>
               </div>
@@ -324,11 +320,9 @@
                   <i class="fas fa-graduation-cap fa-2x cyan-text"></i>
                 </div>
                 <div class="col-10">
-                  <h5 class="feature-title">Lots of tutorials</h5>
+                  <h5 class="feature-title">Tutorials</h5>
                   <p class="grey-text">
-                    We care about the development of our users. We have prepared
-                    numerous tutorials, which allow you to learn how to use MDB
-                    as well as other technologies.
+                    Each section has a supplemental video that covers the fundamental concepts to be practiced. We encourage parents to reinforce the connection between classroom instruction and the Learn platform. 
                   </p>
                 </div>
               </div>

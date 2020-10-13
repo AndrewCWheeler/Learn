@@ -28,43 +28,51 @@
 /Users/andrew/CodingDojo/Career Resources/Learn/obj/Debug/netcoreapp2.2/Learn.dll
 /Users/andrew/CodingDojo/Career Resources/Learn/obj/Debug/netcoreapp2.2/Learn.pdb
 /Users/andrew/CodingDojo/Career Resources/Learn/obj/Debug/netcoreapp2.2/Learn.csproj.CopyComplete
-/Users/andrew/CodingDojo/Career Resources/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Home/LevelOne.g.cshtml.cs
-/Users/andrew/CodingDojo/Career Resources/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Home/LevelTwo.g.cshtml.cs
-/Users/andrew/CodingDojo/Career Resources/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Home/LevelThree.g.cshtml.cs
-/Users/ACW/Documents/Coding/Learn/bin/Debug/netcoreapp2.2/appsettings.Development.json
-/Users/ACW/Documents/Coding/Learn/bin/Debug/netcoreapp2.2/Properties/launchSettings.json
-/Users/ACW/Documents/Coding/Learn/bin/Debug/netcoreapp2.2/Learn.deps.json
-/Users/ACW/Documents/Coding/Learn/bin/Debug/netcoreapp2.2/Learn.runtimeconfig.json
-/Users/ACW/Documents/Coding/Learn/bin/Debug/netcoreapp2.2/Learn.runtimeconfig.dev.json
-/Users/ACW/Documents/Coding/Learn/bin/Debug/netcoreapp2.2/Learn.dll
-/Users/ACW/Documents/Coding/Learn/bin/Debug/netcoreapp2.2/Learn.pdb
-/Users/ACW/Documents/Coding/Learn/bin/Debug/netcoreapp2.2/Learn.Views.dll
-/Users/ACW/Documents/Coding/Learn/bin/Debug/netcoreapp2.2/Learn.Views.pdb
-/Users/ACW/Documents/Coding/Learn/obj/Debug/netcoreapp2.2/Learn.csprojAssemblyReference.cache
-/Users/ACW/Documents/Coding/Learn/obj/Debug/netcoreapp2.2/Learn.AssemblyInfoInputs.cache
-/Users/ACW/Documents/Coding/Learn/obj/Debug/netcoreapp2.2/Learn.AssemblyInfo.cs
-/Users/ACW/Documents/Coding/Learn/obj/Debug/netcoreapp2.2/Learn.csproj.CoreCompileInputs.cache
-/Users/ACW/Documents/Coding/Learn/obj/Debug/netcoreapp2.2/Learn.RazorAssemblyInfo.cache
-/Users/ACW/Documents/Coding/Learn/obj/Debug/netcoreapp2.2/Learn.RazorAssemblyInfo.cs
-/Users/ACW/Documents/Coding/Learn/obj/Debug/netcoreapp2.2/Learn.TagHelpers.input.cache
-/Users/ACW/Documents/Coding/Learn/obj/Debug/netcoreapp2.2/Learn.TagHelpers.output.cache
-/Users/ACW/Documents/Coding/Learn/obj/Debug/netcoreapp2.2/Learn.RazorCoreGenerate.cache
-/Users/ACW/Documents/Coding/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.cshtml.g.cs
-/Users/ACW/Documents/Coding/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Home/LevelOne.cshtml.g.cs
-/Users/ACW/Documents/Coding/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Home/LevelThree.cshtml.g.cs
-/Users/ACW/Documents/Coding/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Home/LevelTwo.cshtml.g.cs
-/Users/ACW/Documents/Coding/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.cshtml.g.cs
-/Users/ACW/Documents/Coding/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.cshtml.g.cs
-/Users/ACW/Documents/Coding/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.cshtml.g.cs
-/Users/ACW/Documents/Coding/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.cshtml.g.cs
-/Users/ACW/Documents/Coding/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
-/Users/ACW/Documents/Coding/Learn/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.cshtml.g.cs
-/Users/ACW/Documents/Coding/Learn/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.cshtml.g.cs
-/Users/ACW/Documents/Coding/Learn/obj/Debug/netcoreapp2.2/Learn.RazorTargetAssemblyInfo.cache
-/Users/ACW/Documents/Coding/Learn/obj/Debug/netcoreapp2.2/Learn.RazorTargetAssemblyInfo.cs
-/Users/ACW/Documents/Coding/Learn/obj/Debug/netcoreapp2.2/Learn.Views.pdb
-/Users/ACW/Documents/Coding/Learn/obj/Debug/netcoreapp2.2/Learn.dll
-/Users/ACW/Documents/Coding/Learn/obj/Debug/netcoreapp2.2/Learn.pdb
-/Users/ACW/Documents/Coding/Learn/obj/Debug/netcoreapp2.2/Learn.genruntimeconfig.cache
-/Users/ACW/Documents/Coding/Learn/obj/Debug/netcoreapp2.2/Learn.csproj.CopyComplete
-/Users/ACW/Documents/Coding/Learn/bin/Debug/netcoreapp2.2/appsettings.json
+/Users/andrew/CodingDojo/Career Resources/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Home/Register.g.cshtml.cs
+/Users/andrew/CodingDojo/Career Resources/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_RegisterLayout.g.cshtml.cs
+/Users/andrew/CodingDojo/Career Resources/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Home/AddLevelThree.g.cshtml.cs
+/Users/andrew/CodingDojo/Career Resources/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Home/DivideLevelOne.g.cshtml.cs
+/Users/andrew/CodingDojo/Career Resources/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Home/DivideLevelThree.g.cshtml.cs
+/Users/andrew/CodingDojo/Career Resources/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Home/DivideLevelTwo.g.cshtml.cs
+/Users/andrew/CodingDojo/Projects/Learn/bin/Debug/netcoreapp2.2/appsettings.Development.json
+/Users/andrew/CodingDojo/Projects/Learn/bin/Debug/netcoreapp2.2/appsettings.json
+/Users/andrew/CodingDojo/Projects/Learn/bin/Debug/netcoreapp2.2/Properties/launchSettings.json
+/Users/andrew/CodingDojo/Projects/Learn/bin/Debug/netcoreapp2.2/Learn.deps.json
+/Users/andrew/CodingDojo/Projects/Learn/bin/Debug/netcoreapp2.2/Learn.runtimeconfig.json
+/Users/andrew/CodingDojo/Projects/Learn/bin/Debug/netcoreapp2.2/Learn.runtimeconfig.dev.json
+/Users/andrew/CodingDojo/Projects/Learn/bin/Debug/netcoreapp2.2/Learn.dll
+/Users/andrew/CodingDojo/Projects/Learn/bin/Debug/netcoreapp2.2/Learn.pdb
+/Users/andrew/CodingDojo/Projects/Learn/bin/Debug/netcoreapp2.2/Learn.Views.dll
+/Users/andrew/CodingDojo/Projects/Learn/bin/Debug/netcoreapp2.2/Learn.Views.pdb
+/Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Learn.csprojAssemblyReference.cache
+/Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Learn.AssemblyInfoInputs.cache
+/Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Learn.AssemblyInfo.cs
+/Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Learn.csproj.CoreCompileInputs.cache
+/Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Learn.RazorAssemblyInfo.cache
+/Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Learn.RazorAssemblyInfo.cs
+/Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Learn.TagHelpers.input.cache
+/Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Learn.TagHelpers.output.cache
+/Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Learn.RazorCoreGenerate.cache
+/Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Home/AddLevelThree.cshtml.g.cs
+/Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Home/DivideLevelOne.cshtml.g.cs
+/Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Home/DivideLevelThree.cshtml.g.cs
+/Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Home/DivideLevelTwo.cshtml.g.cs
+/Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.cshtml.g.cs
+/Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.cshtml.g.cs
+/Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Home/Register.cshtml.g.cs
+/Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.cshtml.g.cs
+/Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.cshtml.g.cs
+/Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.cshtml.g.cs
+/Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_RegisterLayout.cshtml.g.cs
+/Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+/Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.cshtml.g.cs
+/Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.cshtml.g.cs
+/Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Learn.RazorTargetAssemblyInfo.cache
+/Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Learn.RazorTargetAssemblyInfo.cs
+/Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Learn.Views.pdb
+/Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Learn.dll
+/Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Learn.pdb
+/Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Learn.genruntimeconfig.cache
+/Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Learn.csproj.CopyComplete
+/Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Home/AddLevelTwo.cshtml.g.cs
+/Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Home/DivideQuizOne.cshtml.g.cs

@@ -1,22 +1,24 @@
 @{
-    ViewData["Title"] = "Level One";
+    ViewData["Title"] = "Add Level Three";
 }
 @using Learn.Models
 @model FractionCard[]
 
 <div class="container">
-    <h6 class="text-center instructions mt-4">Practice answering each with a reduced fraction. Tap to flip the card and see the solution.</h6>
+    <h6 class="text-center instructions mt-4">Add the fractions together. Tap to flip the card and see the solution.</h6>
     <div class="row justify-content-center">
         @foreach(var item in Model){
             <div class="cardContainer">
                 <div class="flashCard">
                     <div class="front">
-                        <p>@item.Dividend</p>
-                        <p class="mx-3" style="font-size:42px">÷</p>
-                        <p>@item.Divisor</p>
+                        @* <p>@item.Whole</p> *@
+                        <p class="fractionAdd">@item.First</p>
+                        <p class="mx-3" style="font-size:42px">+</p>
+                        @* <p>@item.WholeTwo</p> *@
+                        <p class="fractionAdd">@item.Second</p>
                     </div>
-                    <div class="back mb-5">@item.Whole
-                        <span class="fraction">
+                    <div class="back mb-5">
+                        <span class="fractionAdd">
                             @item.Answer
                         </span>
                     </div>

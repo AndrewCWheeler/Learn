@@ -1,0 +1,80 @@
+@{
+    ViewData["Title"] = "Add Level Two";
+}
+@using Learn.Models
+@model FractionCard[]
+
+<div class="container">
+  <h3 class="text-center instructions my-4">Add the fractions together. Tap to flip the card and see the solution.</h3>
+  <div class="row justify-content-center">
+    @foreach(var item in Model){
+    <div class="scene inner-shadow">
+      <div class="cube" id="@item.Id">
+        <div class="cube__face cube__face--front">
+          <p class="fractionAdd">@item.First</p>
+          <p class="mx-3 wholeStyle">+</p>
+          <p class="fractionAdd">@item.Second</p>
+          <p class="labelbr">Problem</p>
+        </div>
+        <div class="cube__face cube__face--right">
+          <span class="fractionAdd">
+            @item.Answer
+          </span>
+          <p class="labelbr">Answer (Unsimplified)</p>
+        </div>
+        <div class="cube__face cube__face--back">
+          <p class="wholeStyle">@item.AnswerWhole</p>
+          <p class="fraction">@item.AnswerTwo</p>
+          <p class="labelbr">Answer (Simplified)</p>
+        </div>
+        <div class="cube__face cube__face--left">
+          <p>
+            @item.AnswerDecimal
+          </p>
+          <p class="labelbr">Answer (Decimal)</p>
+        </div>
+        <div class="cube__face cube__face--top">
+          <p class="cubeText">
+            How did you do?
+          </p>
+          <p class="iconStyle">
+            <button class="btn-success btn-floating" role="button">
+              <i class="fas fa-thumbs-up"></i>
+            </button>
+            <button class=" btn-danger btn-floating" role="button">
+              <i class="fas fa-thumbs-down"></i>
+            </button>
+          </p>
+        </div>
+        <div class="cube__face cube__face--bottom cubeText">Tap to See Problem</div>
+      </div>
+    </div>
+    }
+  </div>
+    @* <div class="radio-group">
+      <div class="custom-control custom-radio">
+        <input class="custom-control-input" type="radio" name="cube" value="front" checked />
+        <label class="custom-control-label" for="front">front</label>
+      </div>
+      <div class="custom-control custom-radio">
+        <input class="custom-control-input" type="radio" name="cube" value="right" />
+        <label class="custom-control-label" for="right">right</label>
+      </div>
+      <div class="custom-control custom-radio">
+        <input class="custom-control-input" type="radio" name="cube" value="back" />
+        <label class="custom-control-label" for="back">back</label>
+      </div>
+      <div class="custom-control custom-radio">
+        <input class="custom-control-input" type="radio" name="cube" value="left" />
+        <label class="custom-control-label" for="left">left</label>
+      </div>
+      <div class="custom-control custom-radio">
+        <input class="custom-control-input" type="radio" name="cube" value="top" />
+        <label class="custom-control-label" for="top">top</label>
+      </div>
+      <div class="custom-control custom-radio">
+        <input class="custom-control-input" type="radio" name="cube" value="bottom" />
+        <label class="custom-control-label" for="bottom">bottom</label>
+      </div>
+    </div> *@
+</div>

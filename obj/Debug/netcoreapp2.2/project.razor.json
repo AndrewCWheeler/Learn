@@ -1,5 +1,5 @@
 {
-  "FilePath": "/Users/ACW/Documents/Coding/Learn/Learn.csproj",
+  "FilePath": "/Users/andrew/CodingDojo/Projects/Learn/Learn.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -1872,58 +1872,83 @@
   "RootNamespace": "Learn",
   "Documents": [
     {
-      "FilePath": "/Users/ACW/Documents/Coding/Learn/Views/Shared/_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FilePath": "/Users/andrew/CodingDojo/Projects/Learn/Views/Home/Register.cshtml",
+      "TargetPath": "Views\\Home\\Register.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/ACW/Documents/Coding/Learn/Views/Home/LevelThree.cshtml",
-      "TargetPath": "Views\\Home\\LevelThree.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/ACW/Documents/Coding/Learn/Views/_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/ACW/Documents/Coding/Learn/Views/Shared/Error.cshtml",
+      "FilePath": "/Users/andrew/CodingDojo/Projects/Learn/Views/Shared/Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/ACW/Documents/Coding/Learn/Views/Shared/_CookieConsentPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
+      "FilePath": "/Users/andrew/CodingDojo/Projects/Learn/Views/_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/ACW/Documents/Coding/Learn/Views/Home/LevelTwo.cshtml",
-      "TargetPath": "Views\\Home\\LevelTwo.cshtml",
+      "FilePath": "/Users/andrew/CodingDojo/Projects/Learn/Views/Home/DivideQuizOne.cshtml",
+      "TargetPath": "Views\\Home\\DivideQuizOne.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/ACW/Documents/Coding/Learn/Views/_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/ACW/Documents/Coding/Learn/Views/Home/Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/ACW/Documents/Coding/Learn/Views/Home/LevelOne.cshtml",
-      "TargetPath": "Views\\Home\\LevelOne.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/ACW/Documents/Coding/Learn/Views/Home/Index.cshtml",
+      "FilePath": "/Users/andrew/CodingDojo/Projects/Learn/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/ACW/Documents/Coding/Learn/Views/Shared/_ValidationScriptsPartial.cshtml",
+      "FilePath": "/Users/andrew/CodingDojo/Projects/Learn/Views/Home/DivideLevelOne.cshtml",
+      "TargetPath": "Views\\Home\\DivideLevelOne.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/andrew/CodingDojo/Projects/Learn/Views/Shared/_RegisterLayout.cshtml",
+      "TargetPath": "Views\\Shared\\_RegisterLayout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/andrew/CodingDojo/Projects/Learn/Views/Home/AddLevelThree.cshtml",
+      "TargetPath": "Views\\Home\\AddLevelThree.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/andrew/CodingDojo/Projects/Learn/Views/Home/AddLevelTwo.cshtml",
+      "TargetPath": "Views\\Home\\AddLevelTwo.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/andrew/CodingDojo/Projects/Learn/Views/Home/DivideLevelTwo.cshtml",
+      "TargetPath": "Views\\Home\\DivideLevelTwo.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/andrew/CodingDojo/Projects/Learn/Views/Home/DivideLevelThree.cshtml",
+      "TargetPath": "Views\\Home\\DivideLevelThree.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/andrew/CodingDojo/Projects/Learn/Views/Home/Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/andrew/CodingDojo/Projects/Learn/Views/Shared/_CookieConsentPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/andrew/CodingDojo/Projects/Learn/Views/Shared/_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/andrew/CodingDojo/Projects/Learn/Views/Shared/_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/andrew/CodingDojo/Projects/Learn/Views/_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     }
   ],

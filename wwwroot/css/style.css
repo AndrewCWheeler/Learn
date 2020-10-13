@@ -1,7 +1,7 @@
 /* Required height of parents of the Half Page Carousel for proper displaying carousel itself */
 
 .whiteText {
-  color: white;
+  color: white !important;
 }
 
 @media (max-width: 740px) {
