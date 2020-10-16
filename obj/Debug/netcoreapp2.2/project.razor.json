@@ -1897,6 +1897,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/andrew/CodingDojo/Projects/Learn/Views/Home/MultiplyLevelThree.cshtml",
+      "TargetPath": "Views\\Home\\MultiplyLevelThree.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/andrew/CodingDojo/Projects/Learn/Views/Home/DivideLevelOne.cshtml",
       "TargetPath": "Views\\Home\\DivideLevelOne.cshtml",
       "FileKind": "mvc"
@@ -1909,6 +1914,16 @@
     {
       "FilePath": "/Users/andrew/CodingDojo/Projects/Learn/Views/Home/AddLevelThree.cshtml",
       "TargetPath": "Views\\Home\\AddLevelThree.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/andrew/CodingDojo/Projects/Learn/Views/Home/MultiplyLevelTwo.cshtml",
+      "TargetPath": "Views\\Home\\MultiplyLevelTwo.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/andrew/CodingDojo/Projects/Learn/Views/Home/MultiplyLevelOne.cshtml",
+      "TargetPath": "Views\\Home\\MultiplyLevelOne.cshtml",
       "FileKind": "mvc"
     },
     {

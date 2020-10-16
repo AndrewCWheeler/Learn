@@ -55,6 +55,10 @@ $(function () {
       );
     }
   });
+  // $('.button-up').click(function() {
+  //   $('#score').html(function(i, val) {
+  //     return val*1+1 });
+  // });
   $('.dropdown-submenu .dropdown-toggle').on('click', function (e) {
     e.stopPropagation();
     e.preventDefault();
@@ -156,7 +160,7 @@ $(function () {
       currentClass = '';
     }
   });
-  var currentClass1='';
+  var currentClass1 = '';
   $('#1').click(function () {
     if (currentClass1 === '') {
       $(this).addClass('show-right');
@@ -174,8 +178,8 @@ $(function () {
       $(this).removeClass('show-top').addClass('show-bottom');
       currentClass1 = 'show-bottom';
     } else if (currentClass1 === 'show-bottom') {
-      $(this).removeClass('show-bottom').addClass('');
-      currentClass1 = '';
+        $(this).removeClass('show-bottom').addClass('');
+        currentClass1 = '';
     }
   });
   var currentClass2 = ''; 
@@ -398,22 +402,80 @@ $(function () {
       currentClass11 = '';
     }
   });
+  $("#delete0").click(function (){
+      $('#0').remove();
+      $('.hide0').css('display', 'block');
+      $('#score').html(function(i, val) {
+        return val*1+1 });
+  });
+  $('#delete1').click(function (){
+    $('#1').remove();
+    $('.hide1').css('display', 'block');
+    $('#score').html(function(i, val) {
+      return val*1+1 });
+  });
+  $('#delete2').click(function (){
+    $('#2').remove();
+    $('.hide2').css('display', 'block');
+    $('#score').html(function(i, val) {
+      return val*1+1 });
+  });
+  $('#delete3').click(function (){
+    $('#3').remove();
+    $('.hide3').css('display', 'block');
+    $('#score').html(function(i, val) {
+      return val*1+1 });
+  });
+  $('#delete4').click(function (){
+    $('#4').remove();
+    $('.hide4').css('display', 'block');
+    $('#score').html(function(i, val) {
+      return val*1+1 });
+  });
+  $('#delete5').click(function (){
+    $('#5').remove();
+    $('.hide5').css('display', 'block');
+    $('#score').html(function(i, val) {
+      return val*1+1 });
+  });
+  $('#delete6').click(function (){
+    $('#6').remove();
+    $('.hide6').css('display', 'block');
+    $('#score').html(function(i, val) {
+      return val*1+1 });
+  });
+  $('#delete7').click(function (){
+    $('#7').remove();
+    $('.hide7').css('display', 'block');
+    $('#score').html(function(i, val) {
+      return val*1+1 });
+  });
+  $('#delete8').click(function (){
+    $('#8').remove();
+    $('.hide8').css('display', 'block');
+    $('#score').html(function(i, val) {
+      return val*1+1 });
+  });
+  $('#delete9').click(function (){
+    $('#9').remove();
+    $('.hide9').css('display', 'block');
+    $('#score').html(function(i, val) {
+      return val*1+1 });
+  });
+  $('#delete10').click(function (){
+    $('#10').remove();
+    $('.hide10').css('display', 'block');
+    $('#score').html(function(i, val) {
+      return val*1+1 });
+  });
+  $('#delete11').click(function (){
+    $('#11').remove();
+    $('.hide11').css('display', 'block');
+    $('#score').html(function(i, val) {
+      return val*1+1 });
+  });
+  // $('#redo0').click(function (){
+  //   $('#0').removeClass('show-bottom').addClass('');
+  //   currentClass = ''; 
+  // })
 });
-
-// var cube = document.querySelector('.cube');
-// var radioGroup = document.querySelector('.radio-group');
-// var currentClass = '';
-
-// const changeSide = () => {
-//   var checkedRadio = radioGroup.querySelector(':checked');
-//   var showClass = 'show-' + checkedRadio.value;
-//   if (currentClass) {
-//     cube.classList.remove(currentClass);
-//   }
-//   cube.classList.add(showClass);
-//   currentClass = showClass;
-// };
-// // set initial side
-// changeSide();
-
-// radioGroup.addEventListener('change', changeSide);

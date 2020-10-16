@@ -76,3 +76,6 @@
 /Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Learn.csproj.CopyComplete
 /Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Home/AddLevelTwo.cshtml.g.cs
 /Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Home/DivideQuizOne.cshtml.g.cs
+/Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Home/MultiplyLevelOne.cshtml.g.cs
+/Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Home/MultiplyLevelTwo.cshtml.g.cs
+/Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Home/MultiplyLevelThree.cshtml.g.cs
