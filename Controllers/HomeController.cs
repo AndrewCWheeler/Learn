@@ -45,6 +45,12 @@ namespace Learn.Controllers
       return range.ElementAt(index);
     }
 
+    [HttpGet("codesample")]
+    public IActionResult CodeSample()
+    {
+      return View();
+    }
+
     [HttpPost("users/register")]
     public IActionResult Register(User user)
     {

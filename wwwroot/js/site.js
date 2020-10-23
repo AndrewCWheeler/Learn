@@ -474,8 +474,5 @@ $(function () {
     $('#score').html(function(i, val) {
       return val*1+1 });
   });
-  // $('#redo0').click(function (){
-  //   $('#0').removeClass('show-bottom').addClass('');
-  //   currentClass = ''; 
-  // })
+  line_numbers(document.getElementById('line_nums'));
 });
