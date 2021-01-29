@@ -10,16 +10,16 @@ using Microsoft.Extensions.Logging;
 
 namespace Learn
 {
-  public class Program
-  {
-    public static void Main(string[] args)
+    public class Program
     {
-      CreateWebHostBuilder(args).Build().Run();
-    }
+        public static void Main(string[] args)
+        {
+        CreateWebHostBuilder(args).Build().Run();
+        }
 
-    public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
-        WebHost.CreateDefaultBuilder(args)
+        public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
+            WebHost.CreateDefaultBuilder(args)
             .UseUrls("http://*:5000")
             .UseStartup<Startup>();
-  }
+    }
 }

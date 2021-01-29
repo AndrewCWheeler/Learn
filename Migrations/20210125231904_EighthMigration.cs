@@ -2,7 +2,7 @@
 
 namespace Learn.Migrations
 {
-    public partial class SecondMigration : Migration
+    public partial class EighthMigration : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

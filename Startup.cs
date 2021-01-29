@@ -26,14 +26,14 @@ namespace Learn
     // This method gets called by the runtime. Use this method to add services to the container.
     public void ConfigureServices(IServiceCollection services)
     {
-      services.AddDbContext<LearnContext>(options => options.UseMySql(Configuration["DBInfo:ConnectionString"]));
       services.Configure<CookiePolicyOptions>(options =>
       {
-        // This lambda determines whether user consent for non-essential cookies is needed for a given request.
-        options.CheckConsentNeeded = context => true;
-        options.MinimumSameSitePolicy = SameSiteMode.None;
+      // This lambda determines whether user consent for non-essential cookies is needed for a given request.
+      options.CheckConsentNeeded = context => true;
+      options.MinimumSameSitePolicy = SameSiteMode.None;
       });
 
+      services.AddDbContext<LearnContext>(options => options.UseMySql(Configuration["DBInfo:ConnectionString"]));
       services.AddSession();
       services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
     }
@@ -51,16 +51,15 @@ namespace Learn
         // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
         app.UseHsts();
       }
-
-      app.UseHttpsRedirection();
-      app.UseStaticFiles();
-      app.UseCookiePolicy();
       app.UseSession();
+      app.UseHttpsRedirection();
+      app.UseCookiePolicy();
+      app.UseStaticFiles();
       app.UseMvc(routes =>
       {
         routes.MapRoute(
-                  name: "default",
-                  template: "{controller=Home}/{action=Index}/{id?}");
+          name: "default",
+          template: "{controller=Home}/{action=Index}/{id?}");
       });
     }
   }

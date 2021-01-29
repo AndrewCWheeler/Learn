@@ -1872,8 +1872,8 @@
   "RootNamespace": "Learn",
   "Documents": [
     {
-      "FilePath": "/Users/andrew/CodingDojo/Projects/Learn/Views/Home/Register.cshtml",
-      "TargetPath": "Views\\Home\\Register.cshtml",
+      "FilePath": "/Users/andrew/CodingDojo/Projects/Learn/Views/Home/AddLevelOne.cshtml",
+      "TargetPath": "Views\\Home\\AddLevelOne.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -1892,8 +1892,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/andrew/CodingDojo/Projects/Learn/Views/Home/Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FilePath": "/Users/andrew/CodingDojo/Projects/Learn/Views/Home/Registration.cshtml",
+      "TargetPath": "Views\\Home\\Registration.cshtml",
       "FileKind": "mvc"
     },
     {

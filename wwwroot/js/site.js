@@ -66,34 +66,32 @@ $(function () {
   });
   $('#register').validate({
     rules: {
-      Username: {
+      'Register.Username': {
         required: true,
         minlength: 2,
       },
-      Email: {
+      'Register.Email': {
         required: true,
         email: true,
       },
-      Password: {
-        required: true,
+      'Register.Password': {
         minlength: 8,
       },
-      Confirm: {
-        required: true,
+      'Register.Confirm': {
         minlength: 8,
-        equalTo: '#Password',
+        equalTo: '#Register_Password',
       },
     },
     messages: {
-      Username: {
+      'Register.Username': {
         required: 'Please enter a username',
         minlength: 'Must be more than 2 characters',
       },
-      Password: {
+      'Register.Password': {
         required: 'Please provide a password',
         minlength: 'Must be at least 8 characters...',
       },
-      Confirm: {
+      'Register.Confirm': {
         required: 'Please provide a matching password',
         minlength: 'Must be at least 8 characters...',
         equalTo: 'Your passwords do not match',
@@ -103,17 +101,17 @@ $(function () {
 
   $('#login').validate({
     rules: {
-      Email: {
+      'Login.Email': {
         required: true,
         email: true,
       },
-      Password: {
+      'Login.Password': {
         required: true,
         minlength: 8,
       },
     },
     messages: {
-      Password: {
+      'Login.Password': {
         required: 'Please enter your password',
         minlength: 'Password must be at least 8 characters long',
       },
@@ -138,7 +136,7 @@ $(function () {
       input.attr('type', 'password');
     }
   });
-  var currentClass='';
+  var currentClass = '';
   $('#0').click(function () {
     if (currentClass === '') {
       $(this).addClass('show-right');
@@ -178,11 +176,11 @@ $(function () {
       $(this).removeClass('show-top').addClass('show-bottom');
       currentClass1 = 'show-bottom';
     } else if (currentClass1 === 'show-bottom') {
-        $(this).removeClass('show-bottom').addClass('');
-        currentClass1 = '';
+      $(this).removeClass('show-bottom').addClass('');
+      currentClass1 = '';
     }
   });
-  var currentClass2 = ''; 
+  var currentClass2 = '';
   $('#2').click(function () {
     if (currentClass2 === '') {
       $(this).addClass('show-right');
@@ -204,7 +202,7 @@ $(function () {
       currentClass2 = '';
     }
   });
-  var currentClass3 = ''; 
+  var currentClass3 = '';
   $('#3').click(function () {
     if (currentClass3 === '') {
       $(this).addClass('show-right');
@@ -226,7 +224,7 @@ $(function () {
       currentClass3 = '';
     }
   });
-  var currentClass4 = ''; 
+  var currentClass4 = '';
   $('#4').click(function () {
     if (currentClass4 === '') {
       $(this).addClass('show-right');
@@ -248,7 +246,7 @@ $(function () {
       currentClass4 = '';
     }
   });
-  var currentClass5 = ''; 
+  var currentClass5 = '';
   $('#5').click(function () {
     if (currentClass5 === '') {
       $(this).addClass('show-right');
@@ -270,7 +268,7 @@ $(function () {
       currentClass5 = '';
     }
   });
-  var currentClass6 = ''; 
+  var currentClass6 = '';
   $('#6').click(function () {
     if (currentClass6 === '') {
       $(this).addClass('show-right');
@@ -292,7 +290,7 @@ $(function () {
       currentClass6 = '';
     }
   });
-  var currentClass7 = ''; 
+  var currentClass7 = '';
   $('#7').click(function () {
     if (currentClass7 === '') {
       $(this).addClass('show-right');
@@ -314,7 +312,7 @@ $(function () {
       currentClass7 = '';
     }
   });
-  var currentClass8 = ''; 
+  var currentClass8 = '';
   $('#8').click(function () {
     if (currentClass8 === '') {
       $(this).addClass('show-right');
@@ -336,7 +334,7 @@ $(function () {
       currentClass8 = '';
     }
   });
-  var currentClass9 = ''; 
+  var currentClass9 = '';
   $('#9').click(function () {
     if (currentClass9 === '') {
       $(this).addClass('show-right');
@@ -358,7 +356,7 @@ $(function () {
       currentClass9 = '';
     }
   });
-  var currentClass10 = ''; 
+  var currentClass10 = '';
   $('#10').click(function () {
     if (currentClass10 === '') {
       $(this).addClass('show-right');
@@ -380,7 +378,7 @@ $(function () {
       currentClass10 = '';
     }
   });
-  var currentClass11 = ''; 
+  var currentClass11 = '';
   $('#11').click(function () {
     if (currentClass11 === '') {
       $(this).addClass('show-right');
@@ -402,77 +400,89 @@ $(function () {
       currentClass11 = '';
     }
   });
-  $("#delete0").click(function (){
-      $('#0').remove();
-      $('.hide0').css('display', 'block');
-      $('#score').html(function(i, val) {
-        return val*1+1 });
+  $('#delete0').click(function () {
+    $('#0').remove();
+    $('.hide0').css('display', 'block');
+    $('#score').html(function (i, val) {
+      return val * 1 + 1;
+    });
   });
-  $('#delete1').click(function (){
+  $('#delete1').click(function () {
     $('#1').remove();
     $('.hide1').css('display', 'block');
-    $('#score').html(function(i, val) {
-      return val*1+1 });
+    $('#score').html(function (i, val) {
+      return val * 1 + 1;
+    });
   });
-  $('#delete2').click(function (){
+  $('#delete2').click(function () {
     $('#2').remove();
     $('.hide2').css('display', 'block');
-    $('#score').html(function(i, val) {
-      return val*1+1 });
+    $('#score').html(function (i, val) {
+      return val * 1 + 1;
+    });
   });
-  $('#delete3').click(function (){
+  $('#delete3').click(function () {
     $('#3').remove();
     $('.hide3').css('display', 'block');
-    $('#score').html(function(i, val) {
-      return val*1+1 });
+    $('#score').html(function (i, val) {
+      return val * 1 + 1;
+    });
   });
-  $('#delete4').click(function (){
+  $('#delete4').click(function () {
     $('#4').remove();
     $('.hide4').css('display', 'block');
-    $('#score').html(function(i, val) {
-      return val*1+1 });
+    $('#score').html(function (i, val) {
+      return val * 1 + 1;
+    });
   });
-  $('#delete5').click(function (){
+  $('#delete5').click(function () {
     $('#5').remove();
     $('.hide5').css('display', 'block');
-    $('#score').html(function(i, val) {
-      return val*1+1 });
+    $('#score').html(function (i, val) {
+      return val * 1 + 1;
+    });
   });
-  $('#delete6').click(function (){
+  $('#delete6').click(function () {
     $('#6').remove();
     $('.hide6').css('display', 'block');
-    $('#score').html(function(i, val) {
-      return val*1+1 });
+    $('#score').html(function (i, val) {
+      return val * 1 + 1;
+    });
   });
-  $('#delete7').click(function (){
+  $('#delete7').click(function () {
     $('#7').remove();
     $('.hide7').css('display', 'block');
-    $('#score').html(function(i, val) {
-      return val*1+1 });
+    $('#score').html(function (i, val) {
+      return val * 1 + 1;
+    });
   });
-  $('#delete8').click(function (){
+  $('#delete8').click(function () {
     $('#8').remove();
     $('.hide8').css('display', 'block');
-    $('#score').html(function(i, val) {
-      return val*1+1 });
+    $('#score').html(function (i, val) {
+      return val * 1 + 1;
+    });
   });
-  $('#delete9').click(function (){
+  $('#delete9').click(function () {
     $('#9').remove();
     $('.hide9').css('display', 'block');
-    $('#score').html(function(i, val) {
-      return val*1+1 });
+    $('#score').html(function (i, val) {
+      return val * 1 + 1;
+    });
   });
-  $('#delete10').click(function (){
+  $('#delete10').click(function () {
     $('#10').remove();
     $('.hide10').css('display', 'block');
-    $('#score').html(function(i, val) {
-      return val*1+1 });
+    $('#score').html(function (i, val) {
+      return val * 1 + 1;
+    });
   });
-  $('#delete11').click(function (){
+  $('#delete11').click(function () {
     $('#11').remove();
     $('.hide11').css('display', 'block');
-    $('#score').html(function(i, val) {
-      return val*1+1 });
+    $('#score').html(function (i, val) {
+      return val * 1 + 1;
+    });
   });
-  line_numbers(document.getElementById('line_nums'));
+  // line_numbers(document.getElementById('line_nums'));
 });

@@ -40,7 +40,7 @@
       </div>
     </div>
     <div class="col-sm-6">
-      <h4 class="text-center instructions my-4">Add the fractions together. Tap to flip the card and see the solution.
+      <h4 class="text-center instructions my-4">Add the fractions together. Tap to rotate the cube and see the solutions.
       </h4>
       <div class="row justify-content-center remove">
         @foreach (var item in Model)
@@ -53,20 +53,20 @@
                 <p class="mx-3 wholeStyle">+</p>
                 <p class="fractionAdd">@item.Second</p>
                 <p class="labeltr">Question</p>
-                <i class="labelbr fa fa-arrow-right"></i>
+                @* <i class="labelbr fa fa-arrow-right"></i> *@
               </div>
               <div class="cube__face cube__face--right align-items-center">
                 <span class="fractionAdd">
                   @item.Answer
                 </span>
                 <p class="labeltr">Answer (Unsimplified)</p>
-                <i class="labelbr fa fa-arrow-right"></i>
+                @* <i class="labelbr fa fa-arrow-right"></i> *@
               </div>
               <div class="cube__face cube__face--back align-items-center">
                 <p class="wholeStyle">@item.AnswerWhole</p>
                 <p class="fraction">@item.AnswerTwo</p>
                 <p class="labeltr">Answer (Simplified)</p>
-                <i class="labelbr fa fa-arrow-right"></i>
+                @* <i class="labelbr fa fa-arrow-right"></i> *@
               </div>
               <div class="cube__face cube__face--left" style="display:block">
                 <h5 class="text-center mt-4">Summary:</h5>
@@ -83,7 +83,7 @@
                   <p class="whole-answer">@item.AnswerWhole</p>
                   <p class="fractionAnswer">@item.AnswerTwo</p>
                 </div>
-                <i class="labelbr fa fa-arrow-down"></i>
+                @* <i class="labelbr fa fa-arrow-down"></i> *@
               </div>
               <div class="cube__face cube__face--top align-items-center">
                 <p class="cubeText">
@@ -107,3 +107,5 @@
         }
       </div>
     </div>
+  </div>
+</div>

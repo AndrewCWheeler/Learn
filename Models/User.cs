@@ -1,6 +1,8 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Collections.Generic;
+
 namespace Learn.Models
 {
   public class User
@@ -30,9 +32,6 @@ namespace Learn.Models
     [Display(Name = "Confirm: ")]
     [DataType(DataType.Password)]
     public string Confirm { get; set; }
-    public int Points { get; set; }
-    public int Percentage { get; set; }
-    public string Grade { get; set; }
 
     public DateTime CreatedAt { get; set; } = DateTime.Now;
     public DateTime UpdatedAt { get; set; } = DateTime.Now;

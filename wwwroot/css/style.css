@@ -1,13 +1,33 @@
 /* Required height of parents of the Half Page Carousel for proper displaying carousel itself */
 
+.subtitle {
+  font-size: 2rem;
+}
+
 .whiteText {
   color: white !important;
 }
-
+.view,
+body,
+html {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
 @media (max-width: 740px) {
   .full-page-intro {
-    height: 1000px;
+    height: 100%;
   }
+}
+
+.myNavFlex {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.myNavFlex .nav-item {
+  flex-basis: 10%;
 }
 
 /* Half Page Carousel itself*/

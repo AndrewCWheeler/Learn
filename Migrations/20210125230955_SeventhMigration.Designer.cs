@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Learn.Migrations
 {
     [DbContext(typeof(LearnContext))]
-    [Migration("20201016000718_LearnMigration")]
-    partial class LearnMigration
+    [Migration("20210125230955_SeventhMigration")]
+    partial class SeventhMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -29,14 +29,8 @@ namespace Learn.Migrations
                     b.Property<string>("Email")
                         .IsRequired();
 
-                    b.Property<string>("Grade");
-
                     b.Property<string>("Password")
                         .IsRequired();
-
-                    b.Property<int>("Percentage");
-
-                    b.Property<int>("Points");
 
                     b.Property<DateTime>("UpdatedAt");
 

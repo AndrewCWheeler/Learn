@@ -36,7 +36,6 @@
 /Users/andrew/CodingDojo/Career Resources/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Home/DivideLevelTwo.g.cshtml.cs
 /Users/andrew/CodingDojo/Projects/Learn/bin/Debug/netcoreapp2.2/appsettings.Development.json
 /Users/andrew/CodingDojo/Projects/Learn/bin/Debug/netcoreapp2.2/appsettings.json
-/Users/andrew/CodingDojo/Projects/Learn/bin/Debug/netcoreapp2.2/Properties/launchSettings.json
 /Users/andrew/CodingDojo/Projects/Learn/bin/Debug/netcoreapp2.2/Learn.deps.json
 /Users/andrew/CodingDojo/Projects/Learn/bin/Debug/netcoreapp2.2/Learn.runtimeconfig.json
 /Users/andrew/CodingDojo/Projects/Learn/bin/Debug/netcoreapp2.2/Learn.runtimeconfig.dev.json
@@ -57,9 +56,7 @@
 /Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Home/DivideLevelOne.cshtml.g.cs
 /Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Home/DivideLevelThree.cshtml.g.cs
 /Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Home/DivideLevelTwo.cshtml.g.cs
-/Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.cshtml.g.cs
 /Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.cshtml.g.cs
-/Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Home/Register.cshtml.g.cs
 /Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.cshtml.g.cs
 /Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.cshtml.g.cs
 /Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.cshtml.g.cs
@@ -79,4 +76,5 @@
 /Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Home/MultiplyLevelOne.cshtml.g.cs
 /Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Home/MultiplyLevelTwo.cshtml.g.cs
 /Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Home/MultiplyLevelThree.cshtml.g.cs
-/Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Home/CodeSample.cshtml.g.cs
+/Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Home/AddLevelOne.cshtml.g.cs
+/Users/andrew/CodingDojo/Projects/Learn/obj/Debug/netcoreapp2.2/Razor/Views/Home/Registration.cshtml.g.cs

@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Learn.Migrations
 {
-    public partial class LearnMigration : Migration
+    public partial class LearnMigrations : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -17,9 +17,6 @@ namespace Learn.Migrations
                     Username = table.Column<string>(maxLength: 20, nullable: false),
                     Email = table.Column<string>(nullable: false),
                     Password = table.Column<string>(nullable: false),
-                    Points = table.Column<int>(nullable: false),
-                    Percentage = table.Column<int>(nullable: false),
-                    Grade = table.Column<string>(nullable: true),
                     CreatedAt = table.Column<DateTime>(nullable: false),
                     UpdatedAt = table.Column<DateTime>(nullable: false)
                 },
